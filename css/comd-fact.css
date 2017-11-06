@@ -4,9 +4,9 @@
 }
 
 .caption h3{
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Courier', monospace;
 	font-weight: bold;
-	color:#d60651;
+	color:#0000FF;
 }
 
 @media (max-width: 700px){
