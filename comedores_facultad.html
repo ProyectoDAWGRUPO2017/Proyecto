@@ -6,8 +6,8 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Bar Espol</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/estilo.css">
-		<link  rel="stylesheet" href="css/comd-fact.css">
+		<!--<link rel="stylesheet" href="css/estilo.css">-->
+		
 		<!--PARA CELULAR-->
 		
 		<!--PARA TABLETS-->
@@ -15,36 +15,39 @@
 		<!--<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">-->
+	
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+ <link  rel="stylesheet" href="css/comd-fact.css">
 	</head>
 
 
 	<body >
-		<nav class="navbar navbar-default sidebar">
-			
-				<div class="container-fluid">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+
+
+
+		
 					<div class="navbar-header">
 						<div id="food-logo" >
 						<a href="index.html"><img src="img/logo.jpg" alt="logo" width="150" /></a>
 						</div>
 					</div>
 
-				<div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li><a href="index.html">Inicio</a></li>
-						<li><a href="comedores_facultad.html">Comedores por Facultad</a></li>
-						<li><a href="about.html">Nosotros</a></li>
-						</ul>
-				</div>
-			 </div>
+				
 
-		</nav>
+		
 		<div class="main">
 			<div id="encabezado">
-				<h1> Conoce tus opciones </h1>
-				<h3> COMEDORES DE LA ESPOL </h3>
+				
+				<h3> <FONT FACE="impact" SIZE=6 COLOR="red">COMEDORES DE LA ESPOL </FONT></h3>
 				
 			</div>
-
+<div class="col-10">
 		<div id="facultad-comedores" class="row">
 				<div class="row">
 				  <div class="col-sm-4 col-md-3">
@@ -69,8 +72,8 @@
 				      <img src="img/facultades/fcnm.png" alt="p">
 				      <div class="caption">
 				        <h3>Comedor Delicia</h3>
-				        <p>Especialidad del dia: <br>
-				           Arroz con ensalada de veteraba y Carne frita
+				       <p>Especialidad del dia: <br>
+				           Arroz con menestra pollo frito y Patacones
 				           <b>Valor: $2.5</b>
 				            <br /><span class="label label-danger"> Agotado </span></p>
 				      </div>
@@ -86,7 +89,7 @@
 				      <div class="caption">
 				        <h3>Comedor Fiec</h3>
 				        <p>Especialidad del dia: <br>
-				           Arroz con puré y pollo hornado
+				           Arroz con menestra pollo frito y Patacones
 				           <b>Valor: $2.5</b>
 				            <br /><span class="label label-danger"> Aun disponible </span></p>
 				      </div>
@@ -102,7 +105,7 @@
 				      <div class="caption">
 				        <h3>Comedor FCSH</h3>
 				        <p>Especialidad del dia: <br>
-				           Arroz con pollo
+				           Arroz con menestra pollo frito y Patacones
 				           <b>Valor: $2.5</b>
 				            <br /><span class="label label-danger"> Agotado </span></p>
 				      </div>
@@ -114,26 +117,11 @@
 
 			<div class="col-sm-4 col-md-3">
 				    <div class="thumbnail">
-				      <img src="img/facultades/fict.png" alt="p">
-				      <div class="caption">
-				        <h3>Comedor FICT</h3>
-				        <p>Especialidad del dia: <br>
-				           Arroz con CHULETA
-				           <b>Valor: $2.5</b>
-				            <br /><span class="label label-danger"> Agotado </span></p>
-				      </div>
-				      <div class="botoninfo">
-				      	<p class="mas-info"><a href="comedor-fiec.html" class="btn btn-primary" role="button">Mas Info</a></p>
-				      </div>
-				    </div>
-				  </div>
-			<div class="col-sm-4 col-md-3">
-				    <div class="thumbnail">
 				      <img src="img/facultades/fimcp.png" alt="p">
 				      <div class="caption">
 				        <h3>Comedor FIMCP</h3>
 				        <p>Especialidad del dia: <br>
-				           Arroz con CARNE
+				           Arroz con menestra pollo frito y Patacones
 				           <b>Valor: $2.5</b>
 				            <br /><span class="label label-danger"> Aun disponible </span></p>
 				      </div>
@@ -141,6 +129,24 @@
 				      	<p class="mas-info"><a href="comedor-fiec.html" class="btn btn-primary" role="button">Mas Info</a></p>
 				      </div>
 				    </div>
+				  </div>
+
+			<div class="col-sm-4 col-md-3">
+				    <div class="thumbnail">
+				      <img  src="img/facultades/fict.png" alt="p">
+				      <div class="caption">
+				        <h3>Comedor FICT</h3>
+				        <p>Especialidad del dia: <br>
+				           Arroz con menestra pollo frito y Patacones
+				           <b>Valor: $2.5</b>
+				            <br /><span class="label label-danger"> Agotado </span></p>
+				      </div>
+				      <div class="botoninfo">
+				      	<p class="mas-info"><a href="comedor-fiec.html" class="btn btn-primary" role="button">Mas Info</a></p>
+				     
+				    </div>
+				  </div>
+				  </div>
 				  </div>
 
 <!--

@@ -14,16 +14,19 @@ h1{
 div#comedor{
 	
 	display: inline-block;
+
 }
 p{
 	margin-left: 4%;
+	padding:10px;
 }
 img#comedor {
 	max-width: 100%;
 	margin-right: 0%;
-	
-
 	height: 200px;
+}
+body{
+	padding-left: 20px;
 }
 
 /*Box Model*/
