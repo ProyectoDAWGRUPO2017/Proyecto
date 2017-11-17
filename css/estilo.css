@@ -1,4 +1,4 @@
-
+	
 /*h1::before{
 	content: url(img/espol.jpg);
 };*/
@@ -27,6 +27,13 @@ img#comedor {
 }
 body{
 	padding-left: 20px;
+}
+aside{
+	text-align: justify;
+}
+img{
+
+	width: 4em;
 }
 
 /*Box Model*/
