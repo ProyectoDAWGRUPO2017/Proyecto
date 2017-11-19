@@ -25,7 +25,6 @@ h1{
 
 
 
-
 p{
 	margin-left: 4%;
 	padding:10px;
@@ -35,20 +34,42 @@ p{
 div#left-content{
 
 	text-align: justify;
+
 }
-img{
+#logo{
 
 	width: 4em;
 }
 
-#container-navs{
-	padding-left: 0;
+
+#nav-bloque,#nav-superior{
+		background-color: #e0c069;
 }
 
 
-
-#fin>div{
+#link-block>div{
 	display: inline-block;
+}
+.content{
+	padding-top: 2em;
+}
+h3{
+border-bottom-style: dotted 1em blue;
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	font-weight: bold;
+}
+.nav-link{
+	font-size: 1.3em;
+	 text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	font-weight: bold;
+}
+.nav-link:hover{
+	text-decoration: underline;
+}
+h3#side:hover{
+	border-bottom-style: dotted 1em blue;
+	text-decoration: underline;
 }
 
 
