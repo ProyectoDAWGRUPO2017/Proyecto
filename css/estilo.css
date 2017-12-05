@@ -1,13 +1,6 @@
-	
-/*h1::before{
-	content: url(img/espol.jpg);
-};*/
-/*solo probando el tamañano de las cajas*/
-/**{
-	box-sizing: border-box;
-}*/
+
 /*Box Model*/
-.col-1 {width: 8.33%;}
+/*.col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
 .col-4 {width: 33.33%;}
@@ -18,7 +11,7 @@
 .col-9 {width: 75%;}
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-12 {width: 100%;}*/
 h1{
 	text-align: center;
 }
@@ -36,10 +29,7 @@ div#left-content{
 	text-align: justify;
 
 }
-#logo{
 
-	width: 4em;
-}
 
 
 #nav-bloque,#nav-superior{
@@ -50,9 +40,7 @@ div#left-content{
 #link-block>div{
 	display: inline-block;
 }
-.content{
-	padding-top: 2em;
-}
+
 h3{
 border-bottom-style: dotted 1em blue;
 	text-align: center;
@@ -70,6 +58,46 @@ border-bottom-style: dotted 1em blue;
 h3#side:hover{
 	border-bottom-style: dotted 1em blue;
 	text-decoration: underline;
+	
+}
+#right-content{
+	height: 100%;
+	background-color: green;
+}
+#bloque_content{
+	font-size: 1.3em;
+}
+#myCarousel{
+	width: 80%;
+	height: 100%; 
+	display: block;
+    margin: auto;
+    background-color: red;
+}
+/*Background del body*/
+body{
+	background-color: #FFFFFF;
+
+}
+.content{
+	padding:0% 5%;
+
+
 }
 
+#img-0,#img-1,#img-2{
+width: auto;
+height: 400px;
 
+}
+#logo{
+	width: 5.5em;
+}
+/*modificiacion predeterminada del bootstrap, o bien modificar el bootstrap css*/
+.navbar-brand{
+	height: 5.5em;
+
+}
+.nav-link{
+font-size: 1.5em;
+}
