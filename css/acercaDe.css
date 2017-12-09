@@ -161,3 +161,30 @@ body {
     width: 700px;
   }
 }
+/*modificar los colores */
+#texto{
+padding-left: 0px;
+text-align: justify;
+font-size: 15px;
+}
+img#foto-about{
+  height: auto;
+  width: auto;
+}
+h3{
+  text-align: left;
+
+}
+.content{
+ color: black;
+}
+#info{
+  padding-left: 20px;
+  text-align: left;
+  list-style-type: none;
+}
+#logo-fiec{
+  width: 60%;
+  text-align:center;
+  height: auto;
+}
