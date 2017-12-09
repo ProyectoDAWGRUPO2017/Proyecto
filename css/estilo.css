@@ -65,18 +65,12 @@ h3#side:hover{
 }
 #right-content{
 	height: 100%;
-	background-color: green;
+	
 }
 #bloque_content{
 	font-size: 1.3em;
 }
-#myCarousel{
-	width: 80%;
-	height: 100%; 
-	display: block;
-    margin: auto;
-    background-color: red;
-}
+
 /*Background del body*/
 body{
 	background-color: #FFFFFF;
@@ -103,4 +97,31 @@ height: 400px;
 }
 .nav-link{
 font-size: 1.5em;
+}
+li{
+	border-style: none;
+}
+
+footer {
+	background-color: #e0c069;
+	display: block;
+	padding: 45px 0;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+}
+
+footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+/*#right-content,#left-content{
+	background-color: red;
+}*/
+img#right-img{
+	display: block;
+width:100%;
+height:auto;
+float:right;
+
 }
