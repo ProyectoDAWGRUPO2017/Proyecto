@@ -168,8 +168,9 @@ text-align: justify;
 font-size: 15px;
 }
 img#foto-about{
+   width: 60%;
+  text-align:center;
   height: auto;
-  width: auto;
 }
 h3{
   text-align: left;
