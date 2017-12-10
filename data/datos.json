@@ -1,0 +1,32 @@
+﻿[
+	{
+		"fecha":"12/11/2017",
+		"objeto":["primer avance"],
+		"lugar":["Aula"],
+		"link":["#"]
+	},
+	{
+		"fecha":"17/11/2017",
+		"objeto":["segundo avance"],
+		"lugar":["Oficina Profesor"],
+		"link":["#"]
+	},
+	{
+		"fecha":"24/11/2017",
+		"objeto":["tercer avance"],
+		"lugar":["No se pudo dar"],
+		"link":["#"]
+	},
+	{
+		"fecha":"27/11/2017",
+		"objeto":["cuarto avance"],
+		"lugar":["Github"],
+		"link":["#"]
+	},
+	{
+		"fecha":"30/11/2017",
+		"objeto":["quinto avance"],
+		"lugar":["Github"],
+		"link":["#"]
+	}
+]

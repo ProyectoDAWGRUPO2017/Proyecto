@@ -1,0 +1,26 @@
+﻿html {
+    height: 100%;
+}
+
+
+h4 {
+    text-align: center;
+}
+#linea, #tabla {
+    margin-bottom: 0px;
+}
+dl {
+    padding-left: 2em;
+    margin-left: 1em;
+    border-left: 1px solid;
+}
+dt:before {
+    content: '-';
+    position: absolute;
+    margin-left: -2.05em;
+}
+@media (max-width: 465px){
+    .espacio.row {
+        overflow: scroll;
+    }
+}
