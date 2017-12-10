@@ -5,36 +5,43 @@
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Galeria de platos</title>
-		<link href="css/est-comed.css" rel="stylesheet">
-		<link href="galereya/css/jquery.galereya.css" rel="stylesheet"/>
 		
+		
+		<!-- el siguiente script es  para mantener las imagenes de la galeria en esa posicion y tamaño-->
 		<script
 		  src="https://code.jquery.com/jquery-2.2.4.min.js"
 		  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
 		  crossorigin="anonymous"></script>
+		
+		<!-- todo sobre galereya-->
+		<link href="galereya/css/jquery.galereya.css" rel="stylesheet"/>
 		<script src="galereya/js/jquery.galereya.js"></script>
    	    <script src="galereya/js/jquery.galereya.min.js"></script>
-   	    
-
    	    <script>
 	        $(function() {
 	            $('#galleryherepls').galereya();
 	        });
 	    </script>
+
 <!--el siguiente bootstrap permite a las letras del nav Index galeria..etc..mantenerse en ese tamaño-->
 	    <link href="css/bootstrap.css" rel="stylesheet">
 <!--el siguiente bootstrap permite a las letras del nav Index galeria..etc..mantenerse en horizontal arriba-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
+		<link href="css/est-comed.css" rel="stylesheet">
 		<link href="css/estilo.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/slider.css">
 		
 	</head>
+	
+
+
+
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light " id="nav-superior">
 		  <a class="navbar-brand" >
-		  <img src="img/logo.jpg" id="logo" href="index.html" class="d-inline-block align-top">
-		  </a>
+          <a href="index.html"><img src="img/logo.jpg" id="logo" class="d-inline-block align-top" />
+          </a>
+          </a>
 	     
 	     <div class="collapse navbar-collapse  " id="navbarSupportedContent">
 	       <ul class="navbar-nav mr-auto">
@@ -141,18 +148,17 @@
 
 		    </div> 
 		</div>
-		
+		<script src='photobox/jquery.photobox.js'>
+		</script>
 
-		<script src='photobox/jquery.photobox.js'></script>
 
-
-		<footer>
-  <div class="col-12">
-    <div class="col-12"> <!--Gourmet Traditional Restaurant &copy; 2045 | <a href="#">Privacy Policy</a> | Design by: <a href="http://www.templatemonster.com/">TemplateMonster.com</a>-->
-    Pagina dieseñada con fines educativos </div>
+<footer>
+     <div class="col-12">
+    Pagina diseñada con fines educativos </div>
     <div class="clear"></div>
-  </div>
+    </div>
 </footer>
 
-	</body>
+
+</body>
 </html>
