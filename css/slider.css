@@ -21,6 +21,7 @@
 	margin: 0 auto;
 	
 }
+
 .slider {
 	z-index:2;
 	height: 625px;
@@ -61,10 +62,9 @@ z-index: 999;
 	-o-transition: 0s ease;
 	-webkit-transition: 0s ease;
 	height: 23px;
-	
+	background: url(../img/pagination.png) right 0 no-repeat;
 }
 
 .pagination li a:hover, .pagination li.current a {
 	background-position: 0 0;
 }
-
