@@ -122,3 +122,7 @@ height:auto;
 float:right;
 
 }
+footer{
+	position: relative;
+	bottom: 0;
+}
