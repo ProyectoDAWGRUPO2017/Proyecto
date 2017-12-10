@@ -61,7 +61,7 @@ z-index: 999;
 	-o-transition: 0s ease;
 	-webkit-transition: 0s ease;
 	height: 23px;
-	background: url(../img/pagination.png) right 0 no-repeat;
+	
 }
 
 .pagination li a:hover, .pagination li.current a {

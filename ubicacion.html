@@ -6,15 +6,13 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Comedores cercanos - Espol</title>
 
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-
 		<link href="css/bootstrap.css" rel="stylesheet">
-
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 		<link href="css/estilo.css" rel="stylesheet">
 		<link href="css/ubicacion.css" rel="stylesheet">
 	</head>
 	<body>
+		<header>
 	<nav class="navbar navbar-expand-lg navbar-light" id="nav-superior">
 		  <a class="navbar-brand" >
           <a href="index.html"><img src="img/logo.jpg" id="logo" class="d-inline-block align-top" />
@@ -39,8 +37,8 @@
 	        <a class="nav-link" href="about.html">Nosotros <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item active">
-	        <a class="nav-link" href="time.html">Nuestra historia <span class="sr-only">(current)</span></a>
-	      </li>	       
+          <a class="nav-link" href="comidasPreferidas.html">Las Mejores opciones <span class="sr-only">(current)</span></a>
+          </li> 	       
 	    </ul>
 	    <form class="form-inline my-2 my-lg-0">
 	      <input class="form-control mr-sm-2" type="search" placeholder="Buscar informacion" aria-label="Search">
@@ -48,6 +46,7 @@
 	    </form>
 	  </div>
 	</nav>
+</header>
 		<div class="main">
 			<div id="encabezado">
 				<!--<h1> Conoce tus opciones </h1>
@@ -56,29 +55,29 @@
 			<div id="cont-bares">
 				<h3 id="tit-comd-cerc">Comedores cercanos</h3>
 				<div id="list-comed" class="col-md-3 list-group">
-						<a href="#pos-comed" class="list-group-item comedor-tk" onclick="return selecComed(-2.1458032,-79.9670527, 'Comedor de Neo');">
-					      <h4 class="list-group-item-heading">Comedor de Neo</h4>
+						<a href="#pos-comed" class="list-group-item comedor-tk" onclick="return selecComed(-2.1435504,-79.962101, 'Comedor de Neo');">
+					      <h4 class="list-group-item-heading">Comedor EDCOM</h4>
 					      <p class="list-group-item-text">Almuerzo: </p><span> 
-					      Sopa de lenteja<br />
-					      Arroz con pollo y menestra </span>
+					      Arroz con menestra y patacones con pollo a la parrilla<br />
+					       </span>
 					    </a>	
 						<a href="#pos-comed" class="list-group-item comedor-tk" onclick="return selecComed(-2.1450,-79.966, 'Comedor Coca Cola');">
-					      <h4 class="list-group-item-heading">Comedor Coca Cola</h4>
+					      <h4 class="list-group-item-heading">Comedor FIEC</h4>
 					      <p class="list-group-item-text">Almuerzo: </p><span> 
-					      Sopa de Queso<br />
-					      Arroz con carne y menestra </span>
+					      Sopa de Papa<br />
+					      Arroz con medallones de mortadela</span>
 					    </a>
-						<a href="#pos-comed" class="list-group-item comedor-tk" onclick="return selecComed(-2.147,-79.9681, 'Comedor de Maritima');">
-					      <h4 class="list-group-item-heading">Comedor de Maritima</h4>
+						<a href="#pos-comed" class="list-group-item comedor-tk" onclick="return selecComed(-2.147,-79.9681, 'Comedor de FCSH');">
+					      <h4 class="list-group-item-heading">Comedor de FCSH</h4>
 					      <p class="list-group-item-text">Almuerzo: </p><span> 
-					      Locro<br />
-					      Arroz con pollo y pure </span>
+					      Locro de nabo<br />
+					      Arroz con pollo a la coca cola y ensalada de lechuga </span>
 					    </a>
-						<a href="#pos-comed" class="list-group-item comedor-tk" onclick="return selecComed(-2.146,-79.969, 'Comedor de FIMCP');">
+						<a href="#pos-comed" class="list-group-item comedor-tk" onclick="return selecComed(-2.1449503,-79.966154, 'Comedor de FIMCP');">
 					      <h4 class="list-group-item-heading">Comedor de FIMCP</h4>
 					      <p class="list-group-item-text">Almuerzo: </p><span> 
-					      Sin sopa<br />
-					      Arroz con tallarin verde </span>
+					      Batido de Guineo<br />
+					      acompañado de una super cúbica </span>
 					    </a>	
 				</div>
 				<div id="pos-comed" class="col-md-8">
@@ -93,12 +92,7 @@
 		<script src="js/bootstrap.js"></script>
 	   	<script src="js/ubicacion.js"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuKMTTgBEGbT5Ry3SNsBr2rUy2aLpb4Rw&callback=iniciarMapa"></script>
-		<footer>
-  <div class="col-12">
-    <div class="col-12"> <!--Gourmet Traditional Restaurant &copy; 2045 | <a href="#">Privacy Policy</a> | Design by: <a href="http://www.templatemonster.com/">TemplateMonster.com</a>-->
-    Pagina dieseñada con fines educativos </div>
-    <div class="clear"></div>
-  </div>
-</footer>
+		
+		
 	</body>
 </html>
