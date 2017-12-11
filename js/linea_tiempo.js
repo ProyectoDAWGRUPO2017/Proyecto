@@ -71,10 +71,27 @@ function drawTimeline(svgElement, data) {
 }
 
 if (supportsSvg()) {
-  	var linea = document.querySelector('#linea');
-  	linea.style.display = 'none';
-  	var data = getDataFromDefinitionList(linea);
-  	var svgElement = createSvgElement();
-  	linea.parentNode.insertBefore(svgElement, linea);
-  	drawTimeline(svgElement, data);
+ 
+          $.getJSON("data/datos.json", function(data){
+           var linea = document.querySelector('#linea');
+            $.each(data, function(key, val){
+                var dt= $('<DT></DT>');
+                dt.text(val["fecha"]);
+               
+                var dd= $('<DD></DD>');
+                
+                dd.text(val["lugar"]);
+                $('#linea').append(dt);
+                $('#linea').append(dd);
+            });
+            linea.style.display='none';
+            var data = getDataFromDefinitionList(linea);
+            var svgElement = createSvgElement();
+            linea.parentNode.insertBefore(svgElement, linea);
+            drawTimeline(svgElement, data);
+          
+    });
+  	
+  	
+  	
 }
