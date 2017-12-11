@@ -15,6 +15,7 @@ h3{
 
 }
 .content{
+  width: 80%;
  color: black;
 }
 #info{
@@ -31,37 +32,11 @@ h3{
   width: 240px;
   height: 250px;
 }
-@media screen and (max-width: 1024px ) {
 
-  body{
-    background-color: lightblue;
-    width: 100%;
-  }
-  header,div,footer,body,p{
-    display: block;
-    padding: 0;
-    width: auto;
-  }
-  #img-logo{
-    width: 12em;
-  height: auto;
-  }
-  .col-4{
-    display: none;
-    display: inline-block;
-    width: 100%;
-
-  }
-  p#texto{
-    width: 100%;
-  }
-
-
-}
 
 @media only screen and (min-width: 360px) and (max-width: 640px){
     body{
-    background-color: lightblue;
+   
     width: 100%;
   }
     #foto-group{
@@ -84,7 +59,7 @@ h3{
 
 @media only screen and (min-width: 318px) and (max-width: 880px){
     body{
-    background-color: lightblue;
+    
     width: 100%;
   }
     #foto-group{
