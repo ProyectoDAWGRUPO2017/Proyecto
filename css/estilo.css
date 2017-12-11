@@ -4,11 +4,16 @@
 h1{
 	text-align: center;
 }
-header{
+header,.navbar-default{
 	background-color: #e0c069;
+	width: 100%;
 }
-
-
+form{
+	float: right;
+}
+.nav-link{
+	border-radius: 12px;
+}
 
 p{
 	margin-left: 10%;
@@ -168,6 +173,7 @@ body, html{
 
 /*ESTILO PARA COMPUTADORAS*/
 @media only screen and (min-width: 1300px){
+
     .main{
         width: calc(100% - 200px);
         margin-left: 200px;
@@ -191,4 +197,4 @@ body, html{
     div#food-logo{
         width: 100%;
         margin: 10%  0% 20% 4%;
-    } 
+    }}
