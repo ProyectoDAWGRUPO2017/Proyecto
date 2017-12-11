@@ -9,21 +9,22 @@ h1{
 
 
 p{
-	margin-left: 4%;
+	margin-left: 10%;
 	padding:10px;
 }
-
-
-div#left-content{
-
-	text-align: justify;
-
+h3{
+border-bottom-style: dotted 1em blue;
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	font-weight: bold;
+	margin-left: 10%;
 }
+
 
 
 
 #nav-bloque,#nav-superior{
-		background-color: #e0c069;
+	background-color: 211,211,211;	
 }
 
 
@@ -31,14 +32,9 @@ div#left-content{
 	display: inline-block;
 }
 
-h3{
-border-bottom-style: dotted 1em blue;
-	text-align: center;
-	font-family: 'Josefin Slab', serif;
-	font-weight: bold;
-}
+
 .nav-link{
-	font-size: 1.3em;
+	font-size: 1.2em;
 	 text-shadow: 0 1px 3px rgba(0,0,0,.5);
 	font-weight: bold;
 }
@@ -75,19 +71,20 @@ height: 400px;
 
 }
 #logo{
-	width: 5.5em;
+	width: 3.5em;
 
 }
 /*modificiacion predeterminada del bootstrap, o bien modificar el bootstrap css*/
 .navbar-brand{
-	height: 5.5em;
+	height: 4.5em;
 
 }
 .nav-link{
-font-size: 1.5em;
+font-size: 1.2em;
 }
 li{
 	border-style: none;
+
 }
 
 footer {
@@ -152,4 +149,40 @@ footer{
 
 
 
-}
+body, html{
+    width: 100%;
+    height: 100%;
+
+    }
+
+.main .row{
+    padding: 0%;
+    margin: 0%;
+    }
+
+/*ESTILO PARA COMPUTADORAS*/
+@media only screen and (min-width: 1300px){
+    .main{
+        width: calc(100% - 200px);
+        margin-left: 200px;
+        height: 100%;
+    }
+      
+    nav.sidebar{
+        margin-left: 0%;
+        float: left;
+        width: 15%;
+        height: 100%;
+    }
+
+    #franja{
+        background-color: black;
+        margin-bottom: 20px;
+        height: 10px;
+        width: 100%;
+    }   
+
+    div#food-logo{
+        width: 100%;
+        margin: 10%  0% 20% 4%;
+    } 
