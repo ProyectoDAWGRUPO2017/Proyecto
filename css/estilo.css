@@ -20,7 +20,11 @@ border-bottom-style: dotted 1em blue;
 	margin-left: 10%;
 }
 
+div#left-content{
 
+	text-align: justify;
+
+}
 
 
 #nav-bloque,#nav-superior{

@@ -44,8 +44,8 @@ var margin = {
     left: 200
 };
 
-var width =  500- margin.left - margin.right,
-    height = 300 - margin.top - margin.bottom;
+var width =  300- margin.left - margin.right,
+    height = 150 - margin.top - margin.bottom;
 
 var svg = d3.select("#graphic").append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -95,14 +95,14 @@ bars.append("rect")
 
 //add a value label to the right of each bar
 bars.append("text")
-    .attr("class", "label")
+ .attr("class", "label")
     //y position of the label is halfway down the bar
     .attr("y", function (d) {
         return y(d.name) + y.rangeBand() / 2 + 4;
     })
     //x position is 3 pixels to the right of the bar
     .attr("x", function (d) {
-        return x(d.value) + 3;
+        return x(d.value) + 2;
     })
     .text(function (d) {
         return d.value;
