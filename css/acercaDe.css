@@ -76,7 +76,7 @@ body {
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
@@ -218,5 +218,57 @@ h3{
     width: 100%;
   }
 
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    body{
+    background-color: lightblue;
+    width: 100%;
+  }
+    #foto-group{
+  width: 80px;
+  height: 80px;
+  
+    }
+    p#texto{
+    width: 100%;
+  padding-left: 5px;
+  text-align: center;
+  list-style-type: none;
+  }
+#info{
+  font-size: 5px;
+
+}
+
+}
+
+@media only screen and (min-width: 318px) and (max-width: 880px){
+    body{
+    background-color: lightblue;
+    width: 100%;
+  }
+    #foto-group{
+  width: 80px;
+  height: 80px;
+  
+    }
+    p#texto{
+    width: 100%;
+  padding-left: 5px;
+  text-align: center;
+  list-style-type: none;
+  }
+#info{
+  font-size: 5px;
+
+  
+  
+}
+#img-logo{
+    width: 10em;
+  height: auto;
+  }
 
 }
