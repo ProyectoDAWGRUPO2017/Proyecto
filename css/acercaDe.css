@@ -18,17 +18,17 @@ h3{
   width: 80%;
  color: black;
 }
-#info{
+#info1,#info2{
   padding-left: 20px;
   text-align: left;
   list-style-type: none;
 }
-#img-logo{
+#img-logo-1,#img-logo-2{
   width: 200px;
   text-align:center;
   height: 150px;
 }
-#foto-group{
+#foto-group1,#foto-group2{
   width: 240px;
   height: 250px;
 }
@@ -44,7 +44,7 @@ h3{
   height: 80px;
   
     }
-    p#texto{
+    p#texto1,p#texto2{
     width: 100%;
   padding-left: 5px;
   text-align: center;

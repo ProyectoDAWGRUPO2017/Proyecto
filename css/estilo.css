@@ -1,17 +1,25 @@
 
 
-
+/*<nav class="navbar  navbar-default sidebar navbar-collapse">
+      
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div id="food-logo" >
+            <a href="index.html"><img src="img/logo.jpg" alt="logo" width="50" /></a>
+          </div>*/
 h1{
 	text-align: center;
 }
 header,.navbar-default{
-	background-color: #e0c069;
+	background-color: #e7e7e7;
 	width: 100%;
 }
+
 form{
 	float: right;
 }
-.nav-link{
+.nav-link,{
+		
 	border-radius: 12px;
 }
 
@@ -34,9 +42,6 @@ div#left-content{
 }
 
 
-#nav-bloque,#nav-superior{
-	background-color: 211,211,211;	
-}
 
 
 #link-block>div{
@@ -49,10 +54,11 @@ div#left-content{
 	 text-shadow: 0 1px 3px rgba(0,0,0,.5);
 	font-weight: bold;
 }
-.nav-link:hover{
+.nav-link:hover,li:hover{
+	background-color: 211,211,211;
 	text-decoration: underline;
 }
-h3#side:hover{
+h3.side:hover{
 	border-bottom-style: dotted 1em blue;
 	text-decoration: underline;
 	
@@ -61,7 +67,7 @@ h3#side:hover{
 	height: 100%;
 	
 }
-#bloque_content{
+.bloque_content{
 	font-size: 1.3em;
 }
 
@@ -99,11 +105,11 @@ li{
 }
 
 footer {
-	background-color: #e0c069;
+	background-color: #e7e7e7;
 	display: block;
 	padding: 45px 0;
 	font-size: 12px;
-	color: #fff;
+	color: black;
 	text-align: center;
 }
 
